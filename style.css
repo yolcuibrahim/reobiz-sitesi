@@ -1,0 +1,241 @@
+.en_ust {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(217, 97%, 13%);
+}
+
+.eumail {
+  padding-right: 50px;
+  padding-left: 150px;
+  color: hsl(0, 100%, 100%);
+}
+
+.icons {
+  position: absolute;
+  right: 8px;
+  background-color: red;
+  padding-top: 15px;
+  /*padding-left: 800px;*/
+  height: 35px;
+  width: 400px;
+  text-align: center;
+
+}
+
+.en_ust .icons i {
+  padding-right: 15px;
+  color: white;
+
+}
+
+.icons button {
+  background-color: red;
+  border: 0;
+  cursor: pointer;
+  width: 20px;
+}
+
+.telno {
+  color: hsl(0, 0%, 100%);
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url(images/stock-photo-blur-macro-close-up-colorful-background-or-texture.jfif);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  /*padding: 0px 0;*/
+  align-items: center;
+  background-color: white;
+  /*justify-content: space-between;*/
+
+}
+
+.navbar ul button{
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  width: 40px;
+}
+
+.navbar button {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 12px 10px;
+  border-radius: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  width: 150px;
+  font-weight:bold;
+}
+
+.logo {
+  cursor: pointer;
+  /*border-radius: 50%;*/
+  padding-right: 60px;
+  padding-left: 50px;
+  width: 75px;
+  height: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  margin: 0 25px;
+  display: inline-block;
+
+}
+
+.navbar ul button i {
+  color:red;
+  /*padding-left: 30px;*/
+  
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #787777;
+}
+
+.navbar button:hover {
+  color: black;
+  transition: 1s;
+  background-color: rgb(240, 222, 222);
+}
+
+
+.navbar ul li a:hover {
+  /*box-shadow: 0 2px red;*/
+  transition: 0.5s;
+  color: red;
+}
+
+.content {
+
+  /*width: 750px;*/
+  /*position: absolute;*/
+  top: 40%;
+  color: white;
+  /*text-align: center;*/
+
+}
+
+.content h1 {
+  width: 750px;
+
+  /*position: absolute;*/
+  font-size: 65px;
+  color: rgb(27, 2, 57);
+  margin-left: 175px;
+  padding-top: 150px;
+
+}
+
+.content h2 {
+
+  color: rgb(66, 59, 59);
+  margin: 20px auto;
+  margin-left: 150px;
+  width: 580px;
+}
+
+.content img {
+  float: right;
+  margin-right: 100px;
+  padding-top: 50px;
+  height: 550px;
+  width: 550px;
+}
+
+.content button {
+  width: 150px;
+  padding: 15px 0;
+  border-radius: 5px;
+  /*margin: 20px;*/
+  text-align: center;
+  color: rgb(248, 245, 245);
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgb(223, 13, 13);
+  font-size: 17px;
+  margin-left: 150px;
+}
+
+.content button:hover {
+  color: black;
+  transition: 1s;
+  background-color: rgb(240, 222, 222);
+}
+
+.contact {
+  display: flex;
+  background-color: rgb(4, 4, 65);
+  height: 600px;
+}
+
+.birinci img {
+  margin-top: 100px;
+}
+
+.birinci p {
+  width: 325px;
+  color: white;
+  padding-left: 150px;
+  margin-top: 30px;
+  /*line-height: 20px;*/ 
+  line-height: 25px;
+}
+
+.ikinci {
+  margin-top: 100px;
+  margin-left: 90px;
+  width: 225px;
+}
+
+
+.ikinci h2 {
+  color: white;
+}
+
+.ikinci p {
+  line-height: 30px;
+  font-weight:bold; 
+  color: white
+  
+}
+
+.üçüncü{
+  margin-left: 100px;
+  width: 275px;
+  margin-top: 100px;
+  
+}
+
+.üçüncü h2{
+  color: white;
+ 
+}
+
+.üçüncü p {
+  color: white;
+  padding-left: 100px;
+  font-weight:bold; 
+  line-height: 20px;
+}
+
+.üçüncü img{
+  float: left;
+  
+}
